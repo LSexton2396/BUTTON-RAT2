@@ -16,7 +16,7 @@ Which requires:
 - [Geant4 11.0+](https://geant4.web.cern.ch/)
 - [cmake 3.22+](https://cmake.org/)
 
-The most well-supported way of installing RAT-PAC II is via the [ratpac-setup script](https://github.com/rat-pac/ratpac-setup) which will install all the above software. It produces an environment script `env.sh` which sources both `ratpac.sh` and `geant4.sh`. This needs to be sourced prior to installing this experiment.
+The most well-supported way of installing RAT-PAC II is via the [ratpac-setup script](https://github.com/rat-pac/ratpac-setup) which will install all the above software. It produces an environment script `env.sh` which sources `thisroot.sh`, `geant4.sh`, and `ratpac.sh`. This needs to be sourced prior to installing this experiment.
 
 ## Installation
 
@@ -32,7 +32,7 @@ make
 
 ## Using the experiment
 
-Before running a simulation ensure that both `ratpac.sh` and `geant4.sh` (or `env.sh`) are sourced before sourcing the experiment `button.sh`.
+Before running a simulation ensure that `thisroot.sh`, `geant4.sh`, and `ratpac.sh` (or `env.sh`) are sourced before sourcing the experiment `button.sh`.
 
 To use the BUTTON rat database, use the command `button` instead of `rat` when running your macros.
 
