@@ -43,7 +43,7 @@ button macros/vis_qt_button.mac --vis
 ```
 
 This should bring up the follwing window:
-![BUTTON visual example](https://github.com/LSexton2396/BUTTONexperiment/blob/main/BUTTON_visual_example.png)
+![BUTTON visual example](https://github.com/LSexton2396/BUTTONexperiment/blob/main/BUTTON_visual_example.png?)
 
 
 
